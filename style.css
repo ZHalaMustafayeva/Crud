@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration: none;
+    
+}
+table{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collape;
+}
+table th, table td{
+    border:1px solid gray
+}
+th button{
+    cursor: grab;
+}
+.error{
+    background-color:darkred;
+}
+.creat-btn,.cancel-btn, .save-btn{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background-color: orange;
+    border-radius: 5px;
+    font-weight:bold;
+    color: rgb(90, 88, 88);
+    letter-spacing: 1px;
+}
+.cancel-btn{
+   background-color: darkred; 
+   color: #fff;
+}
+.save-btn{
+    background-color:lightgreen ;
+}
+input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    border:none
+}
+thead tr th{
+    font-weight:bold;
+    color: rgb(90, 88, 88);
+    letter-spacing: 1px;
+    color: rgb(163, 105, 105);
+}
+tbody tr td{
+    width: 300px;
+    color: darkblue;
+}
